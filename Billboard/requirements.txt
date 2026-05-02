@@ -1,5 +1,10 @@
-# 3SG Billboard Module - dependencies
+# 3SG Billboard Module + shared Python dependencies
 # Tested working together as of May 2026
+
+# Campaign Hit Checker
+pytrends==4.9.2
+urllib3<2                    # required by pytrends for TLS compatibility
+
 
 # Computer Vision
 ultralytics==8.3.40          # YOLOv8 - auto-downloads yolov8n.pt on first run

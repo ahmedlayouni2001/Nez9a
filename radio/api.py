@@ -18,8 +18,13 @@ import sys
 import time
 import random
 import threading
+from pathlib import Path
+from dotenv import load_dotenv
 from flask import Flask, jsonify, request
 from flask_cors import CORS
+
+# Load .env from project root BEFORE importing the scraper so GROQ_API_KEY is in os.environ
+load_dotenv(Path(__file__).parent.parent / ".env")
 
 # Make sure the scraper module is importable from the same directory
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
