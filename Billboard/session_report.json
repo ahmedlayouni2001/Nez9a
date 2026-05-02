@@ -1,0 +1,76 @@
+{
+  "summary": {
+    "video_start": "2026-05-02 07:19:33",
+    "video_end": "2026-05-02 07:19:47",
+    "total_people": 10,
+    "fraud_detected_at": "2026-05-02 07:19:45"
+  },
+  "output_video": "C:\\Users\\MSI\\Desktop\\HackathonJunior\\Billboard\\output_h264.mp4",
+  "per_second": [
+    {
+      "timestamp": "2026-05-02 07:19:34",
+      "persons": 3,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:35",
+      "persons": 3,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:36",
+      "persons": 4,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:37",
+      "persons": 5,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:38",
+      "persons": 4,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:40",
+      "persons": 2,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:41",
+      "persons": 1,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:42",
+      "persons": 2,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:43",
+      "persons": 4,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:44",
+      "persons": 4,
+      "fraud_status": "nothing"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:45",
+      "persons": 5,
+      "fraud_status": "fraud"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:46",
+      "persons": 2,
+      "fraud_status": "fraud"
+    },
+    {
+      "timestamp": "2026-05-02 07:19:47",
+      "persons": 2,
+      "fraud_status": "fraud"
+    }
+  ]
+}

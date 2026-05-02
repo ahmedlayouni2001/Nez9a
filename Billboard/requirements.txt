@@ -1,0 +1,17 @@
+# 3SG Billboard Module - dependencies
+# Tested working together as of May 2026
+
+# Computer Vision
+ultralytics==8.3.40          # YOLOv8 - auto-downloads yolov8n.pt on first run
+opencv-python==4.10.0.84
+mediapipe==0.10.18           # Face mesh for attention/gaze
+imagehash==4.3.1             # Perceptual hashing (fraud detection)
+Pillow==10.4.0
+numpy==1.26.4                # Locked to <2.0 for mediapipe compatibility
+
+# Backend
+fastapi==0.115.5
+uvicorn[standard]==0.32.0
+websockets==13.1
+httpx==0.27.2                # for TomTom + Groq calls
+python-multipart==0.0.12
